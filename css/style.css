@@ -1569,10 +1569,14 @@ h3 {
 }
 
 .instragram_area .single_instagram {
-    width: 20%;
+    /*width: 20%;*/
     float: left;
     position: relative;
-    overflow: hidden
+    overflow: hidden;
+    width: calc(20% - 15px);
+    margin: 0 7.5px;
+    box-sizing: border-box;
+    border-radius: 0.25rem;
 }
 
 @media (max-width: 767px) {
