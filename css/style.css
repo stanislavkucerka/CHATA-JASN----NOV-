@@ -386,25 +386,25 @@ h3 {
 }
 
 .line-button:hover {
-    color: #009DFF
+    color: #c19f79;
 }
 
 .line-button:hover::before {
-    background: #009DFF
+    background: #c19f79;
 }
 
 .book_now {
     display: inline-block;
     font-size: 14px;
-    color: #009DFF;
-    border: 1px solid #009DFF;
+    color: #c19f79;
+    border: 1px solid #c19f79;
     text-transform: capitalize;
     padding: 10px 25px
 }
 
 .book_now:hover {
-    background: #009DFF;
-    color: #fff
+    background: #c19f79;
+    color: #fff;
 }
 
 .section_title span {
@@ -480,11 +480,11 @@ h3 {
 
 .slicknav_menu .slicknav_nav a:hover {
     background: transparent;
-    color: #009DFF
+    color: #c19f79;
 }
 
 .slicknav_menu .slicknav_nav a.active {
-    color: #009DFF
+    color: #c19f79;
 }
 
 @media (max-width: 767px) {
@@ -620,19 +620,19 @@ h3 {
 
 @media (max-width: 767px) {
     .header-area .main-header-area .logo-img {
-        text-align: left
+        text-align: center
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     .header-area .main-header-area .logo-img {
-        text-align: left
+        text-align: center
     }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
     .header-area .main-header-area .logo-img {
-        text-align: left
+        text-align: center
     }
 }
 
@@ -1269,9 +1269,10 @@ h3 {
     transform: scale(1.1)
 }
 
-.bar_bg {
-    background-image: url(../img/video/bar_velke.jpg)
+.video_bg {
+    background-image: url(../img/video/emocie.jpg)
 }
+
 
 .video_area {
     padding: 250px 0;
@@ -1317,7 +1318,7 @@ h3 {
     background: #fff;
     line-height: 60px;
     font-size: 15px;
-    color: #009DFF;
+    color: #c19f79;
     display: inline-block;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -1746,7 +1747,7 @@ h3 {
 }
 
 .footer .footer_top .footer_widget ul li a:hover {
-    color: #009DFF
+    color: #c19f79;
 }
 
 .footer .footer_top .footer_widget .newsletter_form {
@@ -1811,7 +1812,7 @@ h3 {
 }
 
 .footer .copy-right_text .copy_right a {
-    color: #009DFF
+    color: #c19f79;
 }
 
 .footer .copy-right_text .socail_links {
