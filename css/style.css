@@ -1039,7 +1039,19 @@ h3 {
 }
 
 .about_bg_1 {
-  background-image: url(../img/banner/about_banner_chata.jpg);
+  background-image: url(../img/banner/cc-min.jpg);
+}
+
+.about_bg_2 {
+  background-image: url(../img/banner/dd.jpg);
+}
+
+.about_bg_3 {
+  background-image: url(../img/banner/ee.jpg);
+}
+
+.about_bg_4 {
+  background-image: url(../img/banner/ff.jpg);
 }
 
 .about_info_area {
@@ -1848,11 +1860,15 @@ h3 {
 }
 
 .breadcam_bg_1 {
-  background-image: url(../img/banner/bradcam2.png);
+  background-image: url(../img/banner/ii-min.jpg);
 }
 
 .breadcam_bg_2 {
-  background-image: url(../img/banner/kontakt_backgroung2.jpg);
+  background-image: url(../img/banner/hh-min.jpg);
+}
+
+.breadcam_bg_3 {
+  background-image: url(../img/banner/gg-min.jpg);
 }
 
 .bradcam_area {
