@@ -538,13 +538,13 @@ h3 {
   background-color: transparent;
   cursor: pointer;
   margin-bottom: 10px;
-  position: relative;
+  position: absolute;
   z-index: 99;
   border: none;
   border-radius: 3px;
   top: 5px;
   padding: 5px;
-  right: 5px;
+  left: 5px;
   margin-top: -5px;
   top: -31px;
 }
@@ -553,15 +553,21 @@ h3 {
   background-color: transparent;
   cursor: pointer;
   margin-bottom: 10px;
-  position: relative;
+  position: absolute;
   z-index: 99;
   border: none;
   border-radius: 3px;
   top: 5px;
   padding: 5px;
-  right: 0;
+  left: 0;
   margin-top: -5px;
   top: -41px;
+}
+
+@media (min-width: 1024px) {
+  .slicknav_btn {
+    transform: translateY(-20px);
+  }
 }
 
 .header-area {
