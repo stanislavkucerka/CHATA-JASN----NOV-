@@ -5,10 +5,23 @@ $(window).on('scroll', function () {
 	var scroll = $(window).scrollTop();
 	if (scroll < 400) {
     $("#sticky-header").removeClass("sticky");
+    if($(window).width() > 1024){
+      $("#navigation").addClass("d-none");
+      $("#navigation").removeClass("d-block");
+
+      $(".mobile_menu").addClass('d-block');
+      $(".mobile_menu").removeClass('d-none');
+    }
     $('#back-top').fadeIn(500);
 	} else {
     $("#sticky-header").addClass("sticky");
     $('#back-top').fadeIn(500);
+    if($(window).width() > 1024){
+      $("#navigation").removeClass("d-block");
+      $("#navigation").addClass("d-block");
+      $(".mobile_menu").addClass('d-none');
+      $(".mobile_menu").removeClass('d-block');
+    }
 	}
 });
 
