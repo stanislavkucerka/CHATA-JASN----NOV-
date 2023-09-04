@@ -386,30 +386,30 @@ h3 {
 }
 
 .line-button:hover {
-  color: #c19f79;
+  color: #b5a191;
 }
 
 .line-button:hover::before {
-  background: #c19f79;
+  background: #b5a191;
 }
 
 .book_now {
   display: inline-block;
   font-size: 14px;
-  color: #c19f79;
-  border: 1px solid #c19f79;
+  color: #b5a191;
+  border: 1px solid #b5a191;
   text-transform: capitalize;
   padding: 10px 25px;
 }
 
 .book_now:hover {
-  background: #c19f79;
+  background: #b5a191;
   color: #fff;
 }
 
 .section_title span {
   /* color: #009DFF; */
-  color: #c19f79;
+  color: #b5a191;
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 15px;
@@ -691,7 +691,7 @@ h3 {
 
 .header-area .main-header-area .book_room .book_btn a {
   /*background: #009DFF;*/
-  background: #c19f79;
+  background: #b5a191;
   padding: 12px 26px;
   font-size: 14px;
   font-weight: 400;
@@ -701,8 +701,8 @@ h3 {
 
 .header-area .main-header-area .book_room .book_btn a:hover {
   background: transparent;
-  color: #c19f79;
-  border: 1px solid #c19f79;
+  color: #b5a191;
+  border: 1px solid #b5a191;
 }
 
 .header-area .main-header-area .main-menu {
@@ -866,7 +866,7 @@ h3 {
   -webkit-transition: transform 500ms ease, background 500ms ease;
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
   padding: 10px 150px;
-  background: #000;
+  background: #0b0f25;
 }
 
 @media (max-width: 767px) {
@@ -1712,7 +1712,7 @@ h3 {
 }
 
 .footer {
-  background: #000;
+  background: #0b0f25;
 }
 
 .footer .footer_top {
