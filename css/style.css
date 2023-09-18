@@ -57,7 +57,7 @@ a:hover,
 
 a,
 button {
-  color: #1f1f1f;
+  color: gray;
   outline: medium none;
 }
 
@@ -2272,7 +2272,7 @@ h3 {
 
 .cennik {
   min-height: 100vh;
-  background-image: url('../img/slider/bugina-min.jpg');
+  background-image: url("../img/slider/bugina-min.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -2359,7 +2359,7 @@ a.cta_btn {
   color: white;
   text-decoration: none;
   letter-spacing: 2px;
-  transition: background .3s ease;
+  transition: background 0.3s ease;
 }
 
 a.cta_btn:hover {
@@ -2367,7 +2367,7 @@ a.cta_btn:hover {
 }
 .link {
   position: fixed;
-  background-color: #D12322;
+  background-color: #d12322;
   padding: 23px 40px;
   right: -99px;
   border-radius: 5px;
@@ -2376,10 +2376,10 @@ a.cta_btn:hover {
   transform: rotate(-90deg);
   font-size: 18px;
   font-weight: 500;
-  color: #FFF;
+  color: #fff;
   text-decoration: none;
   text-transform: capitalize;
-  transition: all .1s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 .link i {
@@ -2392,46 +2392,45 @@ a.cta_btn:hover {
 }
 @media only screen and (max-width: 1024px) {
   .grid {
-      grid-template-columns: 1fr 1fr;
-      gap: 2%;
-
+    grid-template-columns: 1fr 1fr;
+    gap: 2%;
   }
 }
 
 @media only screen and (max-width: 425px) {
   .grid {
-      grid-template-columns: 1fr;
-      gap: 2%;
-      padding-bottom: 25%;
+    grid-template-columns: 1fr;
+    gap: 2%;
+    padding-bottom: 25%;
   }
 
   .container_cennik {
-      padding: 0 1rem;
+    padding: 0 1rem;
   }
 
   .cennik {
-      font-size: 14px;
+    font-size: 14px;
   }
 
   .card {
-      padding: 30px;
+    padding: 30px;
   }
 
   .card_title {
-      font-size: 24px;
-      margin-bottom: 12px;
+    font-size: 24px;
+    margin-bottom: 12px;
   }
 
   .pricing {
-      font-size: 52px;
+    font-size: 52px;
   }
 
   hr {
-      margin-top: 50px;
+    margin-top: 50px;
   }
 
   a.cta_btn {
-      font-size: 11px;
+    font-size: 11px;
   }
 }
 
@@ -2514,7 +2513,8 @@ a.cta_btn:hover {
   z-index: 2;
   transition: width 0.2s ease;
 }
-.slideshow .pagination .item:hover::before, .slideshow .pagination .item.is-active::before {
+.slideshow .pagination .item:hover::before,
+.slideshow .pagination .item.is-active::before {
   background-color: #fff;
 }
 .slideshow .arrows .arrow {
