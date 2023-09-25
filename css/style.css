@@ -2272,7 +2272,7 @@ h3 {
 
 .cennik {
   min-height: 100vh;
-  background-image: url("../img/slider/bugina-min.jpg");
+ /* background-image: url("../img/slider/bugina-min.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -2302,7 +2302,7 @@ h3 {
 .card {
   padding: 50px;
   background: rgba(255, 255, 255, 0.1);
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  border: 2px solid rgb(181, 161, 145);
   backdrop-filter: blur(10px);
   border-radius: 25px;
   height: 320px;
@@ -2397,11 +2397,11 @@ a.cta_btn:hover {
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 768px) {
   .grid {
     grid-template-columns: 1fr;
     gap: 2%;
-    padding-bottom: 25%;
+    padding-bottom: 50%;
   }
 
   .container_cennik {
