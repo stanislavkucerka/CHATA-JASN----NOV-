@@ -136,7 +136,7 @@
               <h2 class="contact-title">Napíšte nám</h2>
             </div>
             <div class="col-lg-8">
-              <form action="mailto:branopapp@gmail.com" method="GET">
+              <form id="formular">
               <!--
               <form
                 class="form-contact contact_form"
@@ -151,7 +151,7 @@
                     <div class="form-group">
                       <textarea
                         class="form-control w-100"
-                        name="message"
+                        name="body"
                         id="message"
                         cols="30"
                         rows="9"
@@ -461,5 +461,14 @@
         },
       });
     </script>
+<script>
+  document.getElementById('formular').addEventListener('submit', function(e) {
+    e.preventDefault();
+    var subject = document.getElementById('subject').value;
+    var email = document.getElementById('email').value;
+    var body = document.getElementById('message').value;
+    window.location = 'mailto:branopapp@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  });
+</script>
   </body>
 </html>
