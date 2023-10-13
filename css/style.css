@@ -5103,11 +5103,11 @@ h6 {
   z-index: 10;
 }
 .header-area .main-header-area .slicknav_btn {
-  transform: translateY(-4px);
+  transform: translateY(2px);
   width: 100px;
 }
 .header-area .main-header-area .book_room {
-  transform: translateY(-44px);
+  transform: translateY(-38px);
   margin-bottom: -23px;
 }
 .header-area .main-header-area.sticky {
