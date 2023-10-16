@@ -5130,3 +5130,17 @@ h6 {
 .slicknav_menu .slicknav_nav {
   background: rgba(255, 255, 255, 0.9);
 }
+@media only screen and (max-width: 767px){
+  .footer .footer_top {
+      text-align: center;
+  }
+  .copy_right{
+    text-align: center;
+  }
+  .contact-page .contact-infos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+  }
+}
