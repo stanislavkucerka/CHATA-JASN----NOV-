@@ -487,12 +487,6 @@ h3 {
   color: #c19f79;
 }
 
-@media (max-width: 767px) {
-  .slicknav_menu .slicknav_nav a i {
-    display: none;
-  }
-}
-
 @media (min-width: 768px) and (max-width: 991px) {
   .slicknav_menu .slicknav_nav a i {
     display: none;
@@ -692,11 +686,16 @@ h3 {
 .header-area .main-header-area .book_room .book_btn a {
   /*background: #009DFF;*/
   background: #b5a191;
-  padding: 12px 26px;
+  padding: 12px 7px;
   font-size: 14px;
   font-weight: 400;
   border: 1px solid transparent;
   color: #fff;
+}
+@media (min-width: 450px) {
+  .header-area .main-header-area .book_room .book_btn a {
+    padding: 12px 26px;
+  }
 }
 
 .header-area .main-header-area .book_room .book_btn a:hover {
