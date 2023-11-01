@@ -865,7 +865,7 @@ h3 {
   -webkit-transition: transform 500ms ease, background 500ms ease;
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
   padding: 10px 150px;
-  background: #0b0f25;
+  background: black;
 }
 
 @media (max-width: 767px) {
@@ -1688,7 +1688,7 @@ h3 {
 }
 
 .footer {
-  background: #0b0f25;
+  background: black;
 }
 
 .footer .footer_top {
@@ -2300,6 +2300,7 @@ h3 {
   padding: 6px 19px;
 }
 
+
 .card_title {
   font-weight: normal;
   font-size: 36px;
@@ -2309,7 +2310,7 @@ h3 {
 
 .pricing {
   font-weight: normal;
-  font-size: 61px;
+  font-size: 40px;
 }
 
 .pricing .small {
