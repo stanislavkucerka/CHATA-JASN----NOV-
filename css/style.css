@@ -1918,15 +1918,17 @@ h3 {
 }
 
 .breadcam_bg_4 {
-  background-image: url(../img/header/cennik_2.jpg);
+  background-image: url(../img/header/zimna_zahrada.jpg);
 }
 
 .bradcam_area {
-  padding: 170px;
+  padding: 250px;
   background-size: cover;
   background-position: center center;
   text-align: center;
+  /*
   padding: 269px 0 159px 0;
+  */
 }
 
 @media (max-width: 767px) {
@@ -2375,6 +2377,7 @@ h3 {
 .pricing {
   font-weight: normal;
   font-size: 40px;
+  text-align: center;
 }
 
 .pricing .small {
