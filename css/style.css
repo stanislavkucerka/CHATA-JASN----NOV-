@@ -1094,14 +1094,14 @@ h3 {
   display: flex;
   justify-content: center;
   font-size: 25px;
-  
+  background-color: #b5a191;
   
  
 }
 
 .main-option {
   position: relative;
-  color: #000;
+  color: white;
   cursor: pointer;
   padding: 20px;
   /*border-right: 1px solid #ccc;*/
@@ -1117,7 +1117,7 @@ h3 {
 }
 
 .main-option:hover {
-  color: #b5a191;
+  color: black;
 }
 
 .sub-options {
