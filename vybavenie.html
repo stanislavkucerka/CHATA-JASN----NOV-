@@ -135,7 +135,7 @@
   <!---------------------------------------------------------------------LIŠTA VYBAVENIA !!! ---------------->
 
 
-  <div class="menu">
+  <div class="menu" id="levels_bar">
 	<div class="main-option" id="option1">
 		<span>Prízemie</span>
 		<div class="sub-options">
@@ -1166,48 +1166,50 @@
 >
  <h3 style="font-size: 40px">@Zubkovavilajasna</h3>
 </div>
-<div class="instragram_area">
- <div class="single_instagram">
-   <img src="img/instragram/ig_1 copy.jpg" alt="" />
-   <div class="ovrelay">
-	 <a href="https://www.instagram.com/zubkovavilajasna/" target="_blank">
-	   <i class="fa fa-instagram"></i>
-	 </a>
-   </div>
- </div>
- <div class="single_instagram">
-   <img src="img/instragram/ig_2.jpg" alt="" />
-   <div class="ovrelay">
-	 <a href="https://www.instagram.com/zubkovavilajasna/" target="_blank">
-	   <i class="fa fa-instagram"></i>
-	 </a>
-   </div>
- </div>
- <div class="single_instagram">
-   <img src="img/instragram/ig_3.jpg" alt="" />
-   <div class="ovrelay">
-	 <a href="https://www.instagram.com/zubkovavilajasna/" target="_blank">
-	   <i class="fa fa-instagram"></i>
-	 </a>
-   </div>
- </div>
- <div class="single_instagram">
-   <img src="img/instragram/ig_4.jpg" alt="" />
-   <div class="ovrelay">
-	 <a href="https://www.instagram.com/zubkovavilajasna/" target="_blank">
-	   <i class="fa fa-instagram"></i>
-	 </a>
-   </div>
- </div>
- <div class="single_instagram">
-   <img src="img/instragram/ig_5.jpg" alt="" />
-   <div class="ovrelay">
-	 <a href="https://www.instagram.com/zubkovavilajasna/" target="_blank">
-	   <i class="fa fa-instagram"></i>
-	 </a>
-   </div>
- </div>
-</div>
+<div class="container mb-5">
+	<div class="instragram_area">
+	  <div class="single_instagram">
+		<img src="img/instragram/ig_1 copy.jpg" alt="" />
+		<div class="ovrelay">
+		  <a href="https://www.instagram.com/zubkovavilajasna/" target="_blank">
+			<i class="fa fa-instagram"></i>
+		  </a>
+		</div>
+	  </div>
+	  <div class="single_instagram">
+		<img src="img/instragram/ig_2.jpg" alt="" />
+		<div class="ovrelay">
+		  <a href="https://www.instagram.com/zubkovavilajasna/" target="_blank">
+			<i class="fa fa-instagram"></i>
+		  </a>
+		</div>
+	  </div>
+	  <div class="single_instagram">
+		<img src="img/instragram/ig_3.jpg" alt="" />
+		<div class="ovrelay">
+		  <a href="https://www.instagram.com/zubkovavilajasna/" target="_blank">
+			<i class="fa fa-instagram"></i>
+		  </a>
+		</div>
+	  </div>
+	  <div class="single_instagram">
+		<img src="img/instragram/ig_4.jpg" alt="" />
+		<div class="ovrelay">
+		  <a href="https://www.instagram.com/zubkovavilajasna/" target="_blank">
+			<i class="fa fa-instagram"></i>
+		  </a>
+		</div>
+	  </div>
+	  <div class="single_instagram">
+		<img src="img/instragram/ig_5.jpg" alt="" />
+		<div class="ovrelay">
+		  <a href="https://www.instagram.com/zubkovavilajasna/" target="_blank">
+			<i class="fa fa-instagram"></i>
+		  </a>
+		</div>
+	  </div>
+	</div>
+  </div>
 <!-- instragram_area_end -->
 
 <!-- footer -->
@@ -1414,6 +1416,28 @@
          }
 
         });
+
+		var levels_bar_default_position = $('#levels_bar').offset().top;
+		var headerHeight = $('#sticky-header').height();
+
+		function handleLevelsBar(){
+			var scrollPosition = $(window).scrollTop();
+			if (scrollPosition > levels_bar_default_position - headerHeight - 20){
+				$('#levels_bar').addClass('sticked');
+				$('#levels_bar').css({ top: (headerHeight + 20) + 'px' });
+			}else{
+				$('#levels_bar').removeClass('sticked');
+			}
+		}
+
+		$( document ).ready(function() {
+			$(window).scroll(function() {
+				// Your code here
+				handleLevelsBar();
+			});
+
+			handleLevelsBar();
+		});
     </script>
 
 
