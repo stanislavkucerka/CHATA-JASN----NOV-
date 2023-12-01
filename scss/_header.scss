@@ -56,7 +56,7 @@
             @include flexbox();
             @include align-items(center);
             @include justify-content(flex-end);
-           .socail_links{
+           .footer_links{
                ul{
                    li{
                        display: inline-block;
